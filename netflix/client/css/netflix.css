@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f3f3f3;
+    color: #333;
+    direction: ltr;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+:root{
+    --base-color:#e50914;
+}
+#netflix{
+    width: 100%;
+    height: 100vh;
+   
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)), url('../images/bg.jpg');
+
+}
+#netflix > article
+{
+    height: 98px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#netflix > article > div
+{
+    height: 74%;
+    width: 15%;
+}
+#netflix > article > div > svg{
+    fill: #e50914;
+    line-height: normal;
+}
+.drop{
+    height: inherit;
+     
+}
+.drop > ul{
+    height: inherit;
+    display: flex;
+     align-items: center;
+     justify-content:space-evenly ;
+}
+.drop > ul{
+    list-style: none;
+}
+.drop > ul > li:first-child > select{
+   padding: 8px 15px;
+   border-radius: 5px;
+   background:  transparent;
+   margin-right: 20px;
+   color: #fff;
+   font-size: 15px;
+   text-transform: capitalize;
+}
+.drop > ul > li:first-child > select > option{
+   background-color: #e50914;
+}
+.drop > ul > li:nth-child(2) > a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;
+    background: var(--base-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#slider{
+    width: 100%;
+   
+    height: 90vh;
+    display: flex;
+  align-items: center;
+  
+    justify-content: center;
+    
+}
+#slider > article{
+  width: 90%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+    justify-content: center;
+}
+#slider > article > header > h1{
+    color: #fff;
+    font-size: 46px;
+    width: 500px;
+    font-weight: 600;
+    text-align: center;
+
+}
+#slider > article > aside  h4 {
+    width: 500px;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+
+}
+#slider > article > aside  p {
+   
+    font-size: 20px;
+    font-weight: 500;
+    
+    color: #fff;
+    width: 654px;
+
+}
+#slider > article > footer{
+    width: 70%;
+    /* margin-top: 24px; */
+}
+#slider > article > footer > form{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ 
+}
+#slider > article > footer > form > div:first-child
+{
+    width: 50%;
+    
+    
+}
+#slider > article > footer > form > div:nth-child(2){
+
+
+
+margin-top: 30px;
+margin-right: 18px;}
+#slider > article > footer > form > div:first-child > input
+{
+    width: 119%;
+    padding: 15px;
+    margin-top: 30px;
+    outline: none;
+}
+#slider > article > footer > form > div:nth-child(2) > button{
+  border: none;
+  background: var(--base-color);
+  padding: 16px 65px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+#sym {
+    font-size: 15px;
+    font-weight: 600;
+    
+}

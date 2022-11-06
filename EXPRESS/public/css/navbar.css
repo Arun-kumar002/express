@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navSection{
+    height: 100px;
+    width: 100%;
+    background: #fff;
+
+}
+#navSection >article{
+    height: inherit;
+    width: 90%;
+    margin: 0 auto;
+    background: #e5e5e5;
+  
+}
+nav
+{
+    height: inherit;
+    width: 100%;
+    display: flex;
+}
+div
+{
+    height: inherit;
+    width: inherit;
+}
+nav > div:nth-child(1){
+    flex-basis: 25%;
+}
+nav > div:nth-child(2){
+    flex-basis: 75%;
+}
+
+#navSection > article > nav > div> ul{
+    list-style: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#navSection > article > nav > div> ul > li > a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+}
+#navSection > article > nav > div> ul > li > a:hover{
+    color: deeppink;
+}
+
+#loginSection{
+ width: 100%;
+ height: 70vh;
+}
+#loginSection > article
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    flex-direction: column;
+}
+form{
+    width: 26%;
+    height: 50vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+    border: 2px solid royalblue;
+}
+form > input{
+    padding: 10px 22px;
+    border-radius: 4px;
+    outline: none;
+    color: royalblue;
+    
+    
+}
+form > button
+{
+    background: red;
+    border: none;
+    padding: 10px 17px;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+form > button:hover{
+    background: royalblue;
+    color: red;
+    border: none;
+    padding: 10px 17px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+::placeholder{
+    font-style: italic;
+    color: royalblue;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.logoBlock{
+    width: 100%;
+    background: url('https://media-exp1.licdn.com/dms/image/C510BAQG83EJrvP1IrA/company-logo_200_200/0/1583414236957?e=1667433600&v=beta&t=XLlJ-6KqFCjg9W-N9Y24wumpjN7VOYk9P-AkUVxcvZk') no-repeat center;
+    background-size: contain;
+    border-radius: 100%;
+    
+   
+}
